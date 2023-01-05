@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B6BDFD927358830008C6C44 /* ebook_volleyballApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BDFD827358830008C6C44 /* ebook_volleyballApp.swift */; };
+		4B6BDFDB27358830008C6C44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BDFDA27358830008C6C44 /* ContentView.swift */; };
+		4B6BDFDD2735883A008C6C44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6BDFDC2735883A008C6C44 /* Assets.xcassets */; };
+		4B6BDFE02735883A008C6C44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6BDFDF2735883A008C6C44 /* Preview Assets.xcassets */; };
+		4B6BDFEF27358980008C6C44 /* RubbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BDFEE27358980008C6C44 /* RubbersView.swift */; };
+		4B6BDFF227358995008C6C44 /* VideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BDFF127358995008C6C44 /* VideosView.swift */; };
+		4B6BE0042735C5CF008C6C44 /* RubbersNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BE0032735C5CF008C6C44 /* RubbersNavView.swift */; };
+		4B6BE00B2735D789008C6C44 /* Rubbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BE00A2735D789008C6C44 /* Rubbers.swift */; };
+		4B6BE00E2735D795008C6C44 /* Blades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BE00D2735D795008C6C44 /* Blades.swift */; };
+		4B6BE01227361C09008C6C44 /* BladesNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BE01127361C09008C6C44 /* BladesNavView.swift */; };
+		4B6BE01F27363FF2008C6C44 /* VideosNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BE01E27363FF2008C6C44 /* VideosNavView.swift */; };
+		4B6BE028273657A1008C6C44 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BE027273657A1008C6C44 /* Videos.swift */; };
+		4B6BE0402736632C008C6C44 /* PlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BE03F2736632C008C6C44 /* PlayersView.swift */; };
+		4B6BE04327366353008C6C44 /* PlayersNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BE04227366353008C6C44 /* PlayersNavView.swift */; };
+		4B6BE04727366389008C6C44 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BE04627366389008C6C44 /* Players.swift */; };
+		4B6BE04B2736749B008C6C44 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BE04A2736749A008C6C44 /* AboutView.swift */; };
+		4BBF3EEB2736D3C800D35E60 /* SmallGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBF3EEA2736D3C800D35E60 /* SmallGameView.swift */; };
+		4BBF3EF02736FA4000D35E60 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBF3EEF2736FA4000D35E60 /* SwiftUIView.swift */; };
+		7C56BA3A296765AF006FC761 /* lesson01.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7C56BA35296765AF006FC761 /* lesson01.mp4 */; };
+		7C56BA3B296765AF006FC761 /* lesson05.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7C56BA36296765AF006FC761 /* lesson05.mp4 */; };
+		7C56BA3C296765AF006FC761 /* lesson02.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7C56BA37296765AF006FC761 /* lesson02.mp4 */; };
+		7C56BA3D296765AF006FC761 /* lesson03.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7C56BA38296765AF006FC761 /* lesson03.mp4 */; };
+		7C56BA3E296765AF006FC761 /* lesson04.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7C56BA39296765AF006FC761 /* lesson04.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B6BDFD527358830008C6C44 /* ebook_volleyball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ebook_volleyball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6BDFD827358830008C6C44 /* ebook_volleyballApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ebook_volleyballApp.swift; sourceTree = "<group>"; };
+		4B6BDFDA27358830008C6C44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B6BDFDC2735883A008C6C44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B6BDFDF2735883A008C6C44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B6BDFE12735883A008C6C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B6BDFEE27358980008C6C44 /* RubbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubbersView.swift; sourceTree = "<group>"; };
+		4B6BDFF127358995008C6C44 /* VideosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosView.swift; sourceTree = "<group>"; };
+		4B6BE0032735C5CF008C6C44 /* RubbersNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubbersNavView.swift; sourceTree = "<group>"; };
+		4B6BE00A2735D789008C6C44 /* Rubbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rubbers.swift; sourceTree = "<group>"; };
+		4B6BE00D2735D795008C6C44 /* Blades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blades.swift; sourceTree = "<group>"; };
+		4B6BE01127361C09008C6C44 /* BladesNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladesNavView.swift; sourceTree = "<group>"; };
+		4B6BE01E27363FF2008C6C44 /* VideosNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosNavView.swift; sourceTree = "<group>"; };
+		4B6BE027273657A1008C6C44 /* Videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
+		4B6BE03F2736632C008C6C44 /* PlayersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersView.swift; sourceTree = "<group>"; };
+		4B6BE04227366353008C6C44 /* PlayersNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersNavView.swift; sourceTree = "<group>"; };
+		4B6BE04627366389008C6C44 /* Players.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+		4B6BE04A2736749A008C6C44 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		4BBF3EEA2736D3C800D35E60 /* SmallGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallGameView.swift; sourceTree = "<group>"; };
+		4BBF3EEF2736FA4000D35E60 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		7C56BA35296765AF006FC761 /* lesson01.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lesson01.mp4; sourceTree = "<group>"; };
+		7C56BA36296765AF006FC761 /* lesson05.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lesson05.mp4; sourceTree = "<group>"; };
+		7C56BA37296765AF006FC761 /* lesson02.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lesson02.mp4; sourceTree = "<group>"; };
+		7C56BA38296765AF006FC761 /* lesson03.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lesson03.mp4; sourceTree = "<group>"; };
+		7C56BA39296765AF006FC761 /* lesson04.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lesson04.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B6BDFD227358830008C6C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B6BDFCC27358830008C6C44 = {
+			isa = PBXGroup;
+			children = (
+				4B6BDFD727358830008C6C44 /* ebook_volleyball */,
+				4B6BDFD627358830008C6C44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B6BDFD627358830008C6C44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B6BDFD527358830008C6C44 /* ebook_volleyball.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B6BDFD727358830008C6C44 /* ebook_volleyball */ = {
+			isa = PBXGroup;
+			children = (
+				4B6BE021273656CF008C6C44 /* Videos */,
+				4B6BDFDA27358830008C6C44 /* ContentView.swift */,
+				4B6BE00A2735D789008C6C44 /* Rubbers.swift */,
+				4B6BE00D2735D795008C6C44 /* Blades.swift */,
+				4B6BE027273657A1008C6C44 /* Videos.swift */,
+				4B6BE04627366389008C6C44 /* Players.swift */,
+				4B6BDFD827358830008C6C44 /* ebook_volleyballApp.swift */,
+				4B6BDFDC2735883A008C6C44 /* Assets.xcassets */,
+				4B6BDFE12735883A008C6C44 /* Info.plist */,
+				4B6BDFDE2735883A008C6C44 /* Preview Content */,
+			);
+			path = ebook_volleyball;
+			sourceTree = "<group>";
+		};
+		4B6BDFDE2735883A008C6C44 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4B6BDFDF2735883A008C6C44 /* Preview Assets.xcassets */,
+				4B6BE03F2736632C008C6C44 /* PlayersView.swift */,
+				4B6BE04227366353008C6C44 /* PlayersNavView.swift */,
+				4B6BDFEE27358980008C6C44 /* RubbersView.swift */,
+				4B6BE0032735C5CF008C6C44 /* RubbersNavView.swift */,
+				4B6BE01127361C09008C6C44 /* BladesNavView.swift */,
+				4B6BDFF127358995008C6C44 /* VideosView.swift */,
+				4B6BE01E27363FF2008C6C44 /* VideosNavView.swift */,
+				4B6BE04A2736749A008C6C44 /* AboutView.swift */,
+				4BBF3EEA2736D3C800D35E60 /* SmallGameView.swift */,
+				4BBF3EEF2736FA4000D35E60 /* SwiftUIView.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B6BE021273656CF008C6C44 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				7C56BA35296765AF006FC761 /* lesson01.mp4 */,
+				7C56BA37296765AF006FC761 /* lesson02.mp4 */,
+				7C56BA38296765AF006FC761 /* lesson03.mp4 */,
+				7C56BA39296765AF006FC761 /* lesson04.mp4 */,
+				7C56BA36296765AF006FC761 /* lesson05.mp4 */,
+			);
+			name = Videos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B6BDFD427358830008C6C44 /* ebook_volleyball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B6BDFE42735883A008C6C44 /* Build configuration list for PBXNativeTarget "ebook_volleyball" */;
+			buildPhases = (
+				4B6BDFD127358830008C6C44 /* Sources */,
+				4B6BDFD227358830008C6C44 /* Frameworks */,
+				4B6BDFD327358830008C6C44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ebook_volleyball;
+			productName = ebook_tabletennis;
+			productReference = 4B6BDFD527358830008C6C44 /* ebook_volleyball.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B6BDFCD27358830008C6C44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4B6BDFD427358830008C6C44 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 4B6BDFD027358830008C6C44 /* Build configuration list for PBXProject "ebook_volleyball" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B6BDFCC27358830008C6C44;
+			productRefGroup = 4B6BDFD627358830008C6C44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B6BDFD427358830008C6C44 /* ebook_volleyball */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B6BDFD327358830008C6C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C56BA3B296765AF006FC761 /* lesson05.mp4 in Resources */,
+				4B6BDFE02735883A008C6C44 /* Preview Assets.xcassets in Resources */,
+				7C56BA3C296765AF006FC761 /* lesson02.mp4 in Resources */,
+				7C56BA3A296765AF006FC761 /* lesson01.mp4 in Resources */,
+				7C56BA3E296765AF006FC761 /* lesson04.mp4 in Resources */,
+				7C56BA3D296765AF006FC761 /* lesson03.mp4 in Resources */,
+				4B6BDFDD2735883A008C6C44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B6BDFD127358830008C6C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6BE04B2736749B008C6C44 /* AboutView.swift in Sources */,
+				4B6BE01F27363FF2008C6C44 /* VideosNavView.swift in Sources */,
+				4BBF3EF02736FA4000D35E60 /* SwiftUIView.swift in Sources */,
+				4B6BE04327366353008C6C44 /* PlayersNavView.swift in Sources */,
+				4B6BDFEF27358980008C6C44 /* RubbersView.swift in Sources */,
+				4B6BE00E2735D795008C6C44 /* Blades.swift in Sources */,
+				4B6BDFF227358995008C6C44 /* VideosView.swift in Sources */,
+				4B6BE01227361C09008C6C44 /* BladesNavView.swift in Sources */,
+				4B6BE04727366389008C6C44 /* Players.swift in Sources */,
+				4B6BE00B2735D789008C6C44 /* Rubbers.swift in Sources */,
+				4B6BE0042735C5CF008C6C44 /* RubbersNavView.swift in Sources */,
+				4B6BE0402736632C008C6C44 /* PlayersView.swift in Sources */,
+				4BBF3EEB2736D3C800D35E60 /* SmallGameView.swift in Sources */,
+				4B6BE028273657A1008C6C44 /* Videos.swift in Sources */,
+				4B6BDFDB27358830008C6C44 /* ContentView.swift in Sources */,
+				4B6BDFD927358830008C6C44 /* ebook_volleyballApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B6BDFE22735883A008C6C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B6BDFE32735883A008C6C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B6BDFE52735883A008C6C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ebook_volleyball/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/ebook_volleyball/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tina.ebook-volleyball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B6BDFE62735883A008C6C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ebook_volleyball/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/ebook_volleyball/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tina.ebook-volleyball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B6BDFD027358830008C6C44 /* Build configuration list for PBXProject "ebook_volleyball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6BDFE22735883A008C6C44 /* Debug */,
+				4B6BDFE32735883A008C6C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B6BDFE42735883A008C6C44 /* Build configuration list for PBXNativeTarget "ebook_volleyball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6BDFE52735883A008C6C44 /* Debug */,
+				4B6BDFE62735883A008C6C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B6BDFCD27358830008C6C44 /* Project object */;
+}
